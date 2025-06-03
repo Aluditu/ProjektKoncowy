@@ -55,18 +55,15 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.3")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 
-    // DataStore Preferences
+
     implementation("androidx.datastore:datastore-preferences:1.1.0")
 
-    // Coil do ładowania obrazków z plików
+
     implementation("io.coil-kt:coil-compose:2.3.0")
 
-    // Google Maps i Maps Compose
+
     implementation("com.google.android.gms:play-services-maps:18.1.0")
     implementation("com.google.maps.android:maps-compose:2.11.4")
-
-    // Gson do serializacji komentarzy
-    implementation("com.google.code.gson:gson:2.8.9")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
